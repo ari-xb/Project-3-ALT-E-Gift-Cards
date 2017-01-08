@@ -61,6 +61,20 @@ job.each do |num|
  Favour.create(category: 'career', message: "#{num}")
 end
 
+<<<<<<< HEAD
+
+kids = [ 'I will baby sit', 'I will organise a playdate', 'I will child proof the house', 'I will read bedtime stories',
+' I will entertain the chidren for the day', 'I will find the children', 'I will watch a sporting activity', 'I will take us out for pancakes',
+'I will make the hot chocolate', 'I will put the toys away', 'I will clean my room', 'I will get ready for school on time' ]
+
+kids.each do |num|
+ Favour.create(category: 'kids', message: "#{num}")
+end
+
+text = ['JUST BECAUSE', 'I LOVE YOU', 'THANK YOU', 'HAPPY BIRTHDAY', 'HAPPY MOTHERS DAY', 'HAPPY FATHERS DAY',
+  'MERRY CHRISTMAS', 'FOR A DAY', 'FOR A WEEK', 'FOR A MONTH', 'FOR A YEAR', 'I OWE YOU', 'PAY BACK!', 'F*** YOU!']
+=======
+>>>>>>> 4ac8ced8c838560d25ff73a512c2a33576d69b90
 
 kids = [ 'I will baby sit', 'I will organise a playdate', 'I will child proof the house', 'I will read bedtime stories',
 ' I will entertain the chidren for the day', 'I will find the children', 'I will watch a sporting activity', 'I will take us out for pancakes',
@@ -75,11 +89,4 @@ text = ['JUST BECAUSE', 'I LOVE YOU', 'THANK YOU', 'HAPPY BIRTHDAY', 'HAPPY MOTH
 
 text.each do |num|
   Title.create(name: "#{num}")
-end
-
-users = [u1,u2,u3,u4]
-
-users.each do |user|
-  Card.create(user_id: user.id, recipient_email: 'dt_wdi@ga.com', recipient_name: 'DT', title_id: Title.first.id, sign_off: 'Harry', message: 'I will give you career advice',
-   background_img: 'http://appointmentsbilanguage.co.uk/wp-content/uploads/2015/07/Career-Advice.jpg', background_col: '#933a4c' )
 end
