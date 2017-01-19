@@ -1,6 +1,8 @@
-# ALT-E Gift Cards
+# [ALT-E Gift Cards](https://altegifting.herokuapp.com/)
 
-#WDI9 Group Project #1
+http://i.imgur.com/l28NfZe.png
+
+#Team Project
 
 ### Team Members:
 * EJ
@@ -8,7 +10,11 @@
 * Leon Falvey
 * Tim Walter
 
-| Created using  |
+Give the gift of giving. Make a card and send a promise.
+
+Why pay now, when you can do later?
+
+| Created using Ruby on Rails, SQL, JavaScript, CSS & HTML. Started with wireframes and user stories to map out the user flow and requirements.  |
 | :------------------------------------:|
 | [User stories](https://) |
 | [Wireframes](https://) |
