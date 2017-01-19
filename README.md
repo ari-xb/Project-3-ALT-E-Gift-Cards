@@ -1,6 +1,6 @@
 # [ALT-E Gift Cards](https://altegifting.herokuapp.com/)
 
-http://i.imgur.com/l28NfZe.png
+![alt text](http://i.imgur.com/l28NfZe.png "Alt-e app screen shot")
 
 #Team Project
 
